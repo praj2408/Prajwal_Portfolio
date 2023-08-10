@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scene on Prajwal Krishna</title>
+    <link>https://praj2408.github.io/Prajwal_Portfolio/tags/scene/</link>
+    <description>Recent content in scene on Prajwal Krishna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Apr 2017 11:14:48 -0400</lastBuildDate><atom:link href="https://praj2408.github.io/Prajwal_Portfolio/tags/scene/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jigsaw - Toxic Comment Classification Project</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-4/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-4/</guid>
+      <description>Project Overview The Toxic Comment Classification project is an application that uses machine learning to identify toxic comments. The application uses a dataset of comments from social media platforms, such as Twitter, to train a model that can detect toxic comments. The goal of the project is to develop a model that can accurately classify toxic comments and help moderators filter out comments that violate community guidelines.
+Website Dataset The dataset used in this project is the Toxic Comment Classification Challenge from Kaggle.</description>
+    </item>
+    
+    <item>
+      <title>Automated-Machine-Learning-App</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-1/</guid>
+      <description>The Automated ML WebApp project is a tool developed using Python, Pandas Profiling, PyCaret, and Streamlit frameworks. It aims to simplify and streamline the process of building machine learning models by automating various tasks involved in data preprocessing, feature engineering, model selection, and downloading the trained models.
+Frameworks Used: Python The core of the web application is built using Python, a versatile programming language widely used in the field of data science and machine learning.</description>
+    </item>
+    
+  </channel>
+</rss>

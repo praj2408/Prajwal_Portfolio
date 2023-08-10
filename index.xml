@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Prajwal Krishna</title>
+    <link>https://praj2408.github.io/Prajwal_Portfolio/</link>
+    <description>Recent content in Data Science Portfolio on Prajwal Krishna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 May 2023 11:15:58 -0400</lastBuildDate><atom:link href="https://praj2408.github.io/Prajwal_Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adult Census Income Prediction</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-5/</link>
+      <pubDate>Sat, 13 May 2023 11:15:58 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-5/</guid>
+      <description>In the twinkling of an eye, all was ready to execute Coppenole’s idea. Bourgeois, scholars and law clerks all set to work. The little chapel situated opposite the marble table was selected for the scene of the grinning match. A pane broken in the pretty rose window above the door, left free a circle of stone through which it was agreed that the competitors should thrust their heads. In order to reach it, it was only necessary to mount upon a couple of hogsheads, which had been produced from I know not where, and perched one upon the other, after a fashion.</description>
+    </item>
+    
+    <item>
+      <title>Consignment Pricing Prediction Using MLOps DVC</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-6/</link>
+      <pubDate>Fri, 14 Apr 2023 11:25:05 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-6/</guid>
+      <description>Project Overview- The Consignment-Price Prediction project aims to develop a machine-learning model that can accurately predict the price of consignment items based on various features and variables. Consignment is a business model in which an individual or business agrees to sell someone else&amp;rsquo;s items on their behalf, typically taking a commission on the final sale price.
+This project aims to create a predictive model to help consignment store owners and sellers better understand how to price their items, leading to increased sales and profits.</description>
+    </item>
+    
+    <item>
+      <title>Jigsaw - Toxic Comment Classification Project</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-4/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-4/</guid>
+      <description>Project Overview The Toxic Comment Classification project is an application that uses machine learning to identify toxic comments. The application uses a dataset of comments from social media platforms, such as Twitter, to train a model that can detect toxic comments. The goal of the project is to develop a model that can accurately classify toxic comments and help moderators filter out comments that violate community guidelines.
+Website Dataset The dataset used in this project is the Toxic Comment Classification Challenge from Kaggle.</description>
+    </item>
+    
+    <item>
+      <title>Insurance Premium Prediction</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-3/</link>
+      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-3/</guid>
+      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
+    </item>
+    
+    <item>
+      <title>Text-Summarizer-Project</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-2/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-2/</guid>
+      <description>Description The Text-Summarizer-Project is an advanced natural language processing (NLP) application that aims to automatically generate concise summaries of large blocks of text. With the ever-increasing amount of information available online and in various documents, extracting key information efficiently has become a crucial task. This project addresses the need for effective and accurate text summarization by utilizing cutting-edge NLP techniques.
+The primary objective of the Text-Summarizer-Project is to develop a robust and versatile system capable of summarizing a wide range of textual data, including articles, research papers, news reports, and other lengthy documents.</description>
+    </item>
+    
+    <item>
+      <title>Automated-Machine-Learning-App</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-1/</guid>
+      <description>The Automated ML WebApp project is a tool developed using Python, Pandas Profiling, PyCaret, and Streamlit frameworks. It aims to simplify and streamline the process of building machine learning models by automating various tasks involved in data preprocessing, feature engineering, model selection, and downloading the trained models.
+Frameworks Used: Python The core of the web application is built using Python, a versatile programming language widely used in the field of data science and machine learning.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/about/</guid>
+      <description>Illustration from Victor Hugo et son temps (1881) The Hunchback of Notre-Dame (French: Notre-Dame de Paris) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/contact/</guid>
+      <description>I&amp;rsquo;m best reached via Email or LinkedIn. I&amp;rsquo;m always open to interesting conversations and collaboration.
+Email: prajwalgbdr03@gmail.com
+LinkedIn: https://www.linkedin.com/in/prajwalkrishna/
+Github: https://github.com/praj2408</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/coursework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/coursework/</guid>
+      <description>I&amp;rsquo;m best reached via Email or LinkedIn. I&amp;rsquo;m always open to interesting conversations and collaboration.
+Email: prajwalgbdr03@gmail.com
+LinkedIn: https://www.linkedin.com/in/prajwalkrishna/
+Github: https://github.com/praj2408</description>
+    </item>
+    
+  </channel>
+</rss>
