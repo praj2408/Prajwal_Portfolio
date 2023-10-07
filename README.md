@@ -5,6 +5,7 @@ https://praj2408.github.io/Prajwal_Portfolio/
 
 
 ## Commands:
-./hugo version
-./hugo server
-./hugo -D
+```bash ./hugo version  ```   
+```bash ./hugo server   ```  
+```bash ./hugo -D   ```  
+ 
