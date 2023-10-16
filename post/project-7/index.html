@@ -6,7 +6,8 @@
     
     <title>Airline Passenger Satisfaction Prediction using Machine Learning | Prajwal Krishna</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.">
+    <meta name="description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.
+Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity.">
     <meta name="generator" content="Hugo 0.117.0">
     
     
@@ -32,18 +33,21 @@
     
     
     <meta property="og:title" content="Airline Passenger Satisfaction Prediction using Machine Learning" />
-<meta property="og:description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry." />
+<meta property="og:description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.
+Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://praj2408.github.io/Prajwal_Portfolio/post/project-7/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-08-15T11:25:05-04:00" />
 <meta property="article:modified_time" content="2023-08-15T11:25:05-04:00" />
 <meta itemprop="name" content="Airline Passenger Satisfaction Prediction using Machine Learning">
-<meta itemprop="description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry."><meta itemprop="datePublished" content="2023-08-15T11:25:05-04:00" />
+<meta itemprop="description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.
+Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity."><meta itemprop="datePublished" content="2023-08-15T11:25:05-04:00" />
 <meta itemprop="dateModified" content="2023-08-15T11:25:05-04:00" />
-<meta itemprop="wordCount" content="68">
+<meta itemprop="wordCount" content="5199">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Airline Passenger Satisfaction Prediction using Machine Learning"/>
-<meta name="twitter:description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry."/>
+<meta name="twitter:description" content="Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.
+Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity."/>
 
 	
   </head>
@@ -171,8 +175,979 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h3 id="project-overview-">Project Overview-</h3>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="project-overview-">Project Overview-</h1>
 <p>The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.</p>
+<ul>
+<li>
+<p>Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a <strong>371 billion dollar</strong> loss in 2020, and a <strong>329 billion dollar</strong> loss with reduced seat capacity. As a result, in order to revitalise the industry in the face of the current recession, it is absolutely necessary to understand the customer pain points and improve their satisfaction with the services provided.</p>
+</li>
+<li>
+<p>This data set contains a survey on air passenger satisfaction survey.Need to predict Airline passenger satisfaction level:<br>
+1. Satisfaction<br>
+2. Neutral or dissatisfied.</p>
+</li>
+<li>
+<p>Select the best predictive models for predicting passengers satisfaction.</p>
+</li>
+</ul>
+<h2 id="key-observations">Key Observations</h2>
+<p>This is a binary classification problem,it is necessary to predict which of the two levels of satisfaction with the airline the passenger belongs to:Satisfaction, Neutral or dissatisfied</p>
+<p>Before diving into the data, thinking intuitively and being an avid traveller myself, from my experience, the main factors should be:</p>
+<ol>
+<li>
+<p>Delays in the flight</p>
+</li>
+<li>
+<p>Staff efficiency to address customer needs</p>
+</li>
+<li>
+<p>Services provided in the flight</p>
+</li>
+</ol>
+<h2 id="downloading-the-dataset">Downloading the dataset</h2>
+<ul>
+<li>The dataset is from Kaggle. it provides cutting-edge data science, faster and better than most people ever thought possible. Kaggle offers both public and private data science competitions and on-demand consulting by an elite global talent pool.</li>
+<li>When you execute od.download, you will be asked to provide your Kaggle username and API key. Follow these instructions to create an API key: <a href="http://bit.ly/kaggle-creds">http://bit.ly/kaggle-creds</a></li>
+<li>Dataset link <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction">https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction</a></li>
+</ul>
+<h2 id="information-about-the-dataset">Information about the dataset</h2>
+<p>There is the following information about the passengers of some airline:</p>
+<ol>
+<li><strong>Gender:</strong> male or female</li>
+<li><strong>Customer type:</strong> regular or non-regular airline customer</li>
+<li><strong>Age</strong>: the actual age of the passenger</li>
+<li><strong>Type of travel:</strong> the purpose of the passenger&rsquo;s flight (personal or business travel)</li>
+<li><strong>Class:</strong> business, economy, economy plus</li>
+<li><strong>Flight distance</strong></li>
+<li><strong>Inflight wifi service:</strong> satisfaction level with Wi-Fi service on board (0: not rated; 1-5)</li>
+<li><strong>Departure/Arrival time convenient:</strong> departure/arrival time satisfaction level (0: not rated; 1-5)</li>
+<li><strong>Ease of Online booking:</strong> online booking satisfaction rate (0: not rated; 1-5)</li>
+<li><strong>Gate location:</strong> level of satisfaction with the gate location (0: not rated; 1-5)</li>
+<li><strong>Food and drink:</strong> food and drink satisfaction level (0: not rated; 1-5)</li>
+<li><strong>Online boarding:</strong> satisfaction level with online boarding (0: not rated; 1-5)</li>
+<li><strong>Seat comfort:</strong> seat satisfaction level (0: not rated; 1-5)</li>
+<li>Inflight entertainment: satisfaction with inflight entertainment (0: not rated; 1-5)</li>
+<li><strong>On-board service:</strong> level of satisfaction with on-board service (0: not rated; 1-5)</li>
+<li><strong>Leg room service:</strong> level of satisfaction with leg room service (0: not rated; 1-5)</li>
+<li><strong>Baggage handling:</strong> level of satisfaction with baggage handling (0: not rated; 1-5)</li>
+<li><strong>Checkin service:</strong> level of satisfaction with checkin service (0: not rated; 1-5)</li>
+<li><strong>Inflight service:</strong> level of satisfaction with inflight service (0: not rated; 1-5)</li>
+<li><strong>Cleanliness:</strong> level of satisfaction with cleanliness (0: not rated; 1-5)</li>
+<li><strong>Departure delay in minutes:</strong></li>
+<li><strong>Arrival delay in minutes:</strong></li>
+<li><strong>Satisfaction:</strong> Airline satisfaction level(Satisfaction, neutral or dissatisfaction).</li>
+</ol>
+<h2 id="data-modelling">Data Modelling</h2>
+<h3 id="helper-functions">Helper Functions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">plot_roc_curve</span>(y_true,y_prob_preds,ax):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    To plot the ROC curve for the given predictions and model
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span> 
+</span></span><span style="display:flex;"><span>    fpr,tpr,threshold <span style="color:#f92672">=</span> roc_curve(y_true,y_prob_preds)
+</span></span><span style="display:flex;"><span>    roc_auc <span style="color:#f92672">=</span> auc(fpr,tpr)
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>plot(fpr,tpr,<span style="color:#e6db74">&#34;b&#34;</span>,label<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;AUC = </span><span style="color:#e6db74">%0.2f</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> roc_auc)
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Receiver Operating Characteristic&#34;</span>)
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>legend(loc<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;lower right&#39;</span>)
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>plot([<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>],[<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>],<span style="color:#e6db74">&#39;r--&#39;</span>)
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>set_xlim([<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>set_ylim([<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">&#34;False Positive Rate&#34;</span>)
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">&#34;True Positive Rate&#34;</span>);
+</span></span><span style="display:flex;"><span>    plt<span style="color:#f92672">.</span>show();
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">plot_confustion_matrix</span>(y_true,y_preds,axes,name<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    To plot the Confusion Matrix for the given predictions
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>     
+</span></span><span style="display:flex;"><span>    cm <span style="color:#f92672">=</span> confusion_matrix(y_true, y_preds)
+</span></span><span style="display:flex;"><span>    group_names <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;TN&#39;</span>,<span style="color:#e6db74">&#39;FP&#39;</span>,<span style="color:#e6db74">&#39;FN&#39;</span>,<span style="color:#e6db74">&#39;TP&#39;</span>]
+</span></span><span style="display:flex;"><span>    group_percentages <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{0:.2%}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(value) <span style="color:#66d9ef">for</span> value <span style="color:#f92672">in</span> cm<span style="color:#f92672">.</span>flatten()<span style="color:#f92672">/</span>np<span style="color:#f92672">.</span>sum(cm)]
+</span></span><span style="display:flex;"><span>    group_counts <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{0:0.0f}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(value) <span style="color:#66d9ef">for</span> value <span style="color:#f92672">in</span> cm<span style="color:#f92672">.</span>flatten()]
+</span></span><span style="display:flex;"><span>    labels <span style="color:#f92672">=</span> [<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>v1<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">{</span>v2<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">{</span>v3<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#66d9ef">for</span> v1, v2, v3 <span style="color:#f92672">in</span> zip(group_names,group_counts,group_percentages)]
+</span></span><span style="display:flex;"><span>    labels <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>asarray(labels)<span style="color:#f92672">.</span>reshape(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    sns<span style="color:#f92672">.</span>heatmap(cm, annot<span style="color:#f92672">=</span>labels, fmt<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Blues&#39;</span>,ax<span style="color:#f92672">=</span>axes)
+</span></span><span style="display:flex;"><span>    axes<span style="color:#f92672">.</span>set_ylim([<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">0</span>])
+</span></span><span style="display:flex;"><span>    axes<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">&#39;Prediction&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">&#39;Actual&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74"> Confusion Matrix&#39;</span>);
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_classification_report</span>(model,inputs,targets,model_name<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>,record<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">     To Generate the classification report with all the metrics of a given model with confusion matrix as well as ROC AUC curve.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">### Getting the model name from model object</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> model_name <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>: 
+</span></span><span style="display:flex;"><span>        model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">### Making the predictions for the given model</span>
+</span></span><span style="display:flex;"><span>    preds <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(inputs)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> model_name <span style="color:#f92672">in</span> [<span style="color:#e6db74">&#34;LinearSVC&#34;</span>]:
+</span></span><span style="display:flex;"><span>        prob_preds <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>decision_function(inputs)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        prob_preds <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict_proba(inputs)[:,<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">### printing the ROC AUC score</span>
+</span></span><span style="display:flex;"><span>    auc_score <span style="color:#f92672">=</span> roc_auc_score(targets,prob_preds)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;ROC AUC Score : </span><span style="color:#e6db74">{:.2f}</span><span style="color:#e6db74">%</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(auc_score <span style="color:#f92672">*</span> <span style="color:#ae81ff">100.0</span>))
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">### Plotting the Confusion Matrix and ROC AUC Curve</span>
+</span></span><span style="display:flex;"><span>    fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">6</span>))
+</span></span><span style="display:flex;"><span>    plot_confustion_matrix(targets,preds,axes[<span style="color:#ae81ff">0</span>],model_name)
+</span></span><span style="display:flex;"><span>    plot_roc_curve(targets,prob_preds,axes[<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>   
+</span></span></code></pre></div><h2 id="non-tree-models">Non Tree Models</h2>
+<h2 id="logistic-rregression">Logistic Rregression</h2>
+<!-- raw HTML omitted -->
+<p>Logit(pi) = 1/(1+ exp(-pi))</p>
+<p>ln(pi/(1-pi)) = Beta_0 + Beta_1<em>X_1 + … + B_k</em>K_k</p>
+<p><img src="https://media5.datahacker.rs/2021/01/44-1536x707.jpg" alt=""></p>
+<!-- raw HTML omitted -->
+<p><a href="https://www.ibm.com/topics/logistic-regression">source</a></p>
+<p><img src="https://media5.datahacker.rs/2021/01/83-1536x868.jpg" alt=""></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Import the model</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.linear_model <span style="color:#f92672">import</span> LogisticRegression
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span> LogisticRegression()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_test)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		LOGISTICREGRESSION MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.88      0.90      0.89     35308
+              satisfaction       0.87      0.83      0.85     27034
+
+                  accuracy                           0.87     62342
+                 macro avg       0.87      0.87      0.87     62342
+              weighted avg       0.87      0.87      0.87     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.57      0.58      0.58     11858
+              satisfaction       0.43      0.42      0.43      8923
+
+                  accuracy                           0.51     20781
+                 macro avg       0.50      0.50      0.50     20781
+              weighted avg       0.51      0.51      0.51     20781
+
+Accuracy score for training dataset 0.874161881235764
+Accuracy score for validation dataset 0.5129685770655887
+ROC AUC Score : 92.65%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_131_1.png" alt="png"></p>
+<p><strong>Observations</strong></p>
+<ul>
+<li>The auc roc score is 92.65 %</li>
+<li>But this model is not working good with validation data. And also not predecting the True Positives.</li>
+</ul>
+<h2 id="gaussian-naive-bayes">Gaussian Naive Bayes</h2>
+<p>Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Bayes’ Theorem finds the probability of an event occurring given the probability of another event that has already occurred. Bayes’ theorem is stated mathematically as the following equation:</p>
+<!-- raw HTML omitted -->
+<p>where A and B are events and P(B) ≠ 0.</p>
+<p>Basically, we are trying to find the probability of event A, given the event B is true. Event B is also termed as evidence.</p>
+<ul>
+<li>P(A) is the priori of A (the prior probability, i.e. Probability of event before evidence is seen). The evidence is an attribute value of an unknown instance(here, it is event B).</li>
+<li>P(A|B) is a posteriori probability of B, i.e. probability of event after evidence is seen.</li>
+</ul>
+<p>Now, with regards to our dataset, we can apply Bayes’ theorem in following way:</p>
+<!-- raw HTML omitted -->
+<p>where, y is class variable and X is a dependent feature vector (of size n)</p>
+<!-- raw HTML omitted -->
+<p>After substituting and solving the above equation we get the below</p>
+<!-- raw HTML omitted -->
+<p>Now, To create a classifier model. we need to find the probability of given set of inputs for all possible values of the class variable y and pick up the output with maximum probability. This can be expressed mathematically as:</p>
+<!-- raw HTML omitted -->
+<p>So, finally, we are left with the task of calculating P(y) and P(xi | y).</p>
+<p>Please note that P(y) is also called class probability and P(xi | y) is called conditional probability.</p>
+<p>The different naive Bayes classifiers differ mainly by the assumptions they make regarding the distribution of P(xi | y).</p>
+<!-- raw HTML omitted -->
+<p>In Gaussian Naive Bayes, continuous values associated with each feature are assumed to be distributed according to a Gaussian distribution. A Gaussian distribution is also called Normal distribution. When plotted, it gives a bell shaped curve which is symmetric about the mean of the feature values as shown below:</p>
+<!-- raw HTML omitted -->
+<p>The likelihood of the features is assumed to be <!-- raw HTML omitted -->Gaussian<!-- raw HTML omitted -->, hence, conditional probability is given by:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># import the model</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.naive_bayes <span style="color:#f92672">import</span> GaussianNB
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>GaussianNB()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		GAUSSIANNB MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.87      0.90      0.88     35308
+              satisfaction       0.86      0.82      0.84     27034
+
+                  accuracy                           0.86     62342
+                 macro avg       0.86      0.86      0.86     62342
+              weighted avg       0.86      0.86      0.86     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.87      0.90      0.88     11858
+              satisfaction       0.86      0.82      0.84      8923
+
+                  accuracy                           0.86     20781
+                 macro avg       0.86      0.86      0.86     20781
+              weighted avg       0.86      0.86      0.86     20781
+
+Accuracy score for training dataset 0.8636874017516282
+Accuracy score for validation dataset 0.8641066358693037
+ROC AUC Score: 92.33%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_136_1.png" alt="png"></p>
+<p><strong>Observations</strong></p>
+<ul>
+<li>The ROC AUC score is 92.33%. But the Recall and F1 scores are low. Thus we can say our model is failing to predict the True Positives</li>
+<li>The Recall and F1 Score of the GaussianNB is more less than Logistic Regresssion.</li>
+<li>This model working better with validation data.</li>
+</ul>
+<h2 id="svmsupport-vector-machines">SVM(Support Vector Machines)</h2>
+<p>Support Vector Machine, or SVM, is one of the most popular supervised learning algorithms, and it can be used both for classification as well as regression problems. However, in machine learning, it is primarily used for classification problems.</p>
+<ul>
+<li>
+<p>In the SVM algorithm, each data item is plotted as a point in n-dimensional space, where n is the number of features we have at hand, and the value of each feature is the value of a particular coordinate.</p>
+</li>
+<li>
+<p>The goal of the SVM algorithm is to create the best line, or decision boundary, that can segregate the n-dimensional space into distinct classes, so that we can easily put any new data point in the correct category, in the future. This best decision boundary is called a hyperplane.</p>
+</li>
+<li>
+<p>The best separation is achieved by the hyperplane that has the largest distance to the nearest training-data point of any class. Indeed, there are many hyperplanes that might classify the data. Aas reasonable choice for the best hyperplane is the one that represents the largest separation, or margin, between the two classes.</p>
+</li>
+</ul>
+<p>The SVM algorithm chooses the extreme points that help in creating the hyperplane. These extreme cases are called support vectors, while the SVM classifier is the frontier, or hyperplane, that best segregates the distinct classes.</p>
+<p>The diagram below shows two distinct classes, denoted respectively with blue and green points.</p>
+<p><img src="https://ml-cheatsheet.readthedocs.io/en/latest/_images/svm.png" alt=""></p>
+<p>Support Vector Machine can be of two types:</p>
+<ul>
+<li>Linear SVM: A linear SVM is used for linearly separable data, which is the case of a dataset that can be classified into two distinct classes by using a single straight line.</li>
+<li>Non-linear SVM: A non-linear SVM is used for non-linearly separated data, which means that a dataset cannot be classified by using a straight line.</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>We need to choose the best Kernel according to our need.</p>
+<ul>
+<li>The linear kernel is mostly preferred for text classification problems as it performs well for large datasets.</li>
+<li>Gaussian kernels tend to give good results when there is no additional information regarding data that is not available.</li>
+<li>Rbf kernel is also a kind of Gaussian kernel which projects the high dimensional data and then searches a linear separation for it.</li>
+<li>Polynomial kernels give good results for problems where all the training data is normalized.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># import the model</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.svm <span style="color:#f92672">import</span> LinearSVC
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>LinearSVC()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>C:\Users\prajw\anaconda3\Lib\site-packages\sklearn\svm\_classes.py:32: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+
+		LINEARSVC MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.88      0.91      0.89     35308
+              satisfaction       0.87      0.83      0.85     27034
+
+                  accuracy                           0.87     62342
+                 macro avg       0.87      0.87      0.87     62342
+              weighted avg       0.87      0.87      0.87     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.88      0.90      0.89     11858
+              satisfaction       0.87      0.84      0.85      8923
+
+                  accuracy                           0.87     20781
+                 macro avg       0.87      0.87      0.87     20781
+              weighted avg       0.87      0.87      0.87     20781
+
+Accuracy score for training dataset 0.8734721375637612
+Accuracy score for validation dataset 0.8743082623550359
+ROC AUC Score : 92.59%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_140_2.png" alt="png"></p>
+<p><strong>Observations</strong></p>
+<ul>
+<li>The ROC AUC score is 92.59%.</li>
+<li>But the Recall and F1 scores are low. Thus we can say our model is failing to predict the True Positives</li>
+</ul>
+<h2 id="k-nearest-neighbours">K-Nearest Neighbours</h2>
+<!-- raw HTML omitted -->
+<p>Once K and distance metric are selected, K-NN algorithm goes through the following steps:</p>
+<ul>
+<li>Calculate distance: The K-NN algorithm calculates the distance between a new data point and all training data points. This is done using the selected distance metric.</li>
+<li>Find nearest neighbors: Once distances are calculated, K-nearest neighbors are determined based on a set value of K.</li>
+<li>Predict target class label: After finding out K nearest neighbors, we can then predict the target class label for a new data point by taking majority vote from its K neighbors (in case of classification) or by taking average from its K neighbors (in case of regression).</li>
+</ul>
+<p>Below are the different distance functions to calculate the nearest neighbours</p>
+<p><img src="https://www.saedsayad.com/images/KNN_similarity.png" alt=""></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># import the model</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.neighbors <span style="color:#f92672">import</span> KNeighborsClassifier
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>KNeighborsClassifier()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		KNEIGHBORSCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.93      0.98      0.95     35308
+              satisfaction       0.97      0.90      0.94     27034
+
+                  accuracy                           0.95     62342
+                 macro avg       0.95      0.94      0.94     62342
+              weighted avg       0.95      0.95      0.95     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.91      0.96      0.94     11858
+              satisfaction       0.95      0.88      0.91      8923
+
+                  accuracy                           0.93     20781
+                 macro avg       0.93      0.92      0.92     20781
+              weighted avg       0.93      0.93      0.93     20781
+
+Accuracy score for training dataset 0.9460075069776395
+Accuracy score for validation dataset 0.9263750541359896
+ROC AUC Score: 96.69%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_144_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>The ROC AUC score is 96.69%.</li>
+<li>The Recall and F1 scores are good.</li>
+<li>But the model is failing to predict the True Positives.</li>
+</ul>
+<h2 id="sgdclassifier">SGDClassifier</h2>
+<!-- raw HTML omitted -->
+<p>Gradient Descent is a generic optimization algorithm capable of finding optimal solutions to a wide range of problems.</p>
+<ul>
+<li>The general idea is to tweak parameters iteratively in order to minimize the cost function.</li>
+<li>An important parameter of Gradient Descent (GD) is the size of the steps, determined by the learning rate hyperparameters. If the learning rate is too small, then the algorithm will have to go through many iterations to converge, which will take a long time, and if it is too high we may jump the optimal value.</li>
+</ul>
+<p><!-- raw HTML omitted -->Note<!-- raw HTML omitted -->: When using Gradient Descent, we should ensure that all features have a similar scale (e.g. using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.</p>
+<p>Types of Gradient Descent: There are three types of Gradient Descent:</p>
+<ul>
+<li>Batch Gradient Descent</li>
+<li>Stochastic Gradient Descent</li>
+<li>Mini-batch Gradient Descent</li>
+</ul>
+<p><!-- raw HTML omitted -->Stochastic Gradient Descent<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>The word &lsquo;stochastic&rsquo; means a system or process linked with a random probability. Hence, in Stochastic Gradient Descent, a few samples are selected randomly instead of the whole data set for each iteration.</p>
+</li>
+<li>
+<p>If the sample size is very large, it becomes computationally very expensive to find the golbal minima over the entire dataset. With SGD a random sample is selected to perform each iteration. This sample is randomly shuffled and selected for performing the iteration.</p>
+</li>
+</ul>
+<p><img src="https://images.deepai.org/glossary-terms/dd6cdd6fcfea4af1a1075aac0b5aa110/sgd.png" alt=""></p>
+<p>In SGDClassifier from scikit learn implements regularized linear models with stochastic gradient descent (SGD) learning. The model it fits can be controlled with the loss parameter; by default, it fits a linear support vector machine (SVM). The various loss function supported is</p>
+<ul>
+<li>
+<p>&lsquo;hinge&rsquo; gives a linear SVM.</p>
+</li>
+<li>
+<p>&rsquo;log_loss’ gives logistic regression, a probabilistic classifier.</p>
+</li>
+<li>
+<p>&lsquo;modified_huber&rsquo; is another smooth loss that brings tolerance to
+outliers as well as probability estimates.</p>
+</li>
+<li>
+<p>&lsquo;squared_hinge&rsquo; is like a hinge but is quadratically penalized.</p>
+</li>
+<li>
+<p>&lsquo;perceptron&rsquo; is the linear loss used by the perceptron algorithm.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># import the model</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.linear_model <span style="color:#f92672">import</span> SGDClassifier
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>SGDClassifier(loss<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;modified_huber&#39;</span>,n_jobs<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>,random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">42</span>)
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		SGDCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.91      0.80      0.85     35308
+              satisfaction       0.77      0.89      0.83     27034
+
+                  accuracy                           0.84     62342
+                 macro avg       0.84      0.84      0.84     62342
+              weighted avg       0.85      0.84      0.84     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.91      0.79      0.85     11858
+              satisfaction       0.76      0.90      0.83      8923
+
+                  accuracy                           0.84     20781
+                 macro avg       0.84      0.84      0.84     20781
+              weighted avg       0.85      0.84      0.84     20781
+
+Accuracy score for training dataset 0.837781912675243
+Accuracy score for validation dataset 0.8373514267840816
+ROC AUC Score : 92.37%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_148_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>The ROC AUC score is 92.37%. But the Recall and F1 scores are low.</li>
+</ul>
+<h2 id="tree-based-models">Tree Based models</h2>
+<h2 id="tree-based-models-1"><strong>Tree Based models</strong></h2>
+<p>A decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. A decision tree starts at a single point (or ‘node’) which then branches (or ‘splits’) in two or more directions. Each branch offers different possible outcomes, incorporating a variety of decisions and chance events until a final outcome is achieved.</p>
+<!-- raw HTML omitted -->
+<p>While there are multiple ways to select the best attribute at each node, two methods, information gain and Gini impurity, act as popular splitting criteria for decision tree models. They help to evaluate the quality of each test condition and how well it will be able to classify samples into a class.</p>
+<p><strong>Entropy and Information Gain</strong></p>
+<ul>
+<li>Entropy is a concept that stems from information theory, which measures the impurity of the sample values. It is defined by the following formula, where:</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Information gain indicates how much information a particular variable or feature gives us about the final outcome. It can be found out by subtracting the entropy of a particular attribute inside the data set from the entropy of the whole data set.</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># import the model</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.tree <span style="color:#f92672">import</span> DecisionTreeClassifier
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>DecisionTreeClassifier(random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">42</span>)
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		DECISIONTREECLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       1.00      1.00      1.00     35308
+              satisfaction       1.00      1.00      1.00     27034
+
+                  accuracy                           1.00     62342
+                 macro avg       1.00      1.00      1.00     62342
+              weighted avg       1.00      1.00      1.00     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.96      0.95      0.95     11858
+              satisfaction       0.94      0.94      0.94      8923
+
+                  accuracy                           0.95     20781
+                 macro avg       0.95      0.95      0.95     20781
+              weighted avg       0.95      0.95      0.95     20781
+
+Accuracy score for the training dataset is 1.0
+Accuracy score for validation dataset 0.9486069005341418
+ROC AUC Score: 94.79%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_153_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>The ROC AUC score is 94.79%.</li>
+<li>The Recall and F1 scores are good.</li>
+<li>But the model will cause overfitting. as the accuracy score for the training dataset is 1.</li>
+</ul>
+<h2 id="random-forest-classifier">Random Forest classifier</h2>
+<p>Random Forest Classifier is an Ensemble algorithm. Random forest classifier creates a set of decision trees from randomly selected subset of the training set. It then aggregates the votes from different decision trees to decide the final class of the test object.</p>
+<p>This works well because a single decision tree may be prone to noise, but the aggregate of many decision trees reduces the effect of noise giving more accurate results.</p>
+<p><img src="https://1.cms.s81c.com/sites/default/files/2020-12-07/Random%20Forest%20Diagram.jpg" alt=""></p>
+<p>Random forest algorithms have three main hyperparameters, which need to be set before training. These include node size, the number of trees, and the number of features sampled. From there, the random forest classifier can be used to solve for regression or classification problems.</p>
+<ul>
+<li>The random forest algorithm is made up of a collection of decision trees, and each tree in the ensemble is comprised of a data sample drawn from a training set with replacement, called the bootstrap sample.</li>
+<li>Of that training sample, one-third of it is set aside as test data, known as the out-of-bag (oob) sample.</li>
+<li>Another instance of randomness is then injected through feature bagging, adding more diversity to the dataset and reducing the correlation among decision trees.</li>
+<li>Depending on the type of problem, the determination of the prediction will vary. For a regression task, the individual decision trees will be averaged, and for a classification task, a majority vote—i.e. the most frequent categorical variable—will yield the predicted class.</li>
+<li>Finally, the oob sample is then used for cross-validation, finalizing that prediction.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#import the model</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.ensemble <span style="color:#f92672">import</span> RandomForestClassifier
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>RandomForestClassifier(random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">42</span>)
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		RANDOMFORESTCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       1.00      1.00      1.00     35308
+              satisfaction       1.00      1.00      1.00     27034
+
+                  accuracy                           1.00     62342
+                 macro avg       1.00      1.00      1.00     62342
+              weighted avg       1.00      1.00      1.00     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.96      0.98      0.97     11858
+              satisfaction       0.97      0.94      0.95      8923
+
+                  accuracy                           0.96     20781
+                 macro avg       0.96      0.96      0.96     20781
+              weighted avg       0.96      0.96      0.96     20781
+
+Accuracy score for training dataset 1.0
+Accuracy score for validation dataset 0.9609739666041095
+ROC AUC Score: 99.34%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_158_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>The ROC AUC score is 99.37%.</li>
+<li>The Recall and F1 scores are good.</li>
+<li>But model can cause overfitting, as the accuracy score for training dataset is 1,</li>
+<li>But after hypertunning we can train this model model is working much better with the validation dataset set as compared to other trained model.</li>
+</ul>
+<h2 id="ada-boost-classifer">ADA Boost Classifer</h2>
+<p>AdaBoost is an ensemble learning method (also known as “meta-learning”) which was initially created to increase the efficiency of binary classifiers. AdaBoost uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones.</p>
+<p>Rather than being a model in itself, AdaBoost can be applied on top of any classifier to learn from its shortcomings and propose a more accurate model. It is usually called the “best out-of-the-box classifier” for this reason.</p>
+<p>Stumps have one node and two leaves. AdaBoost uses a forest of such stumps rather than trees.</p>
+<p><strong>Adaboost works in the following steps:</strong></p>
+<ul>
+<li>
+<p>Initially, Adaboost selects a training subset randomly.
+It iteratively trains the AdaBoost machine learning model by selecting the training set based on the accurate prediction of the last training.
+It assigns the higher weight to wrong classified observations so that in the next iteration these observations will get the high probability for classification.</p>
+</li>
+<li>
+<p>Also, It assigns the weight to the trained classifier in each iteration according to the accuracy of the classifier. The more accurate classifier will get high weight.</p>
+</li>
+<li>
+<p>This process iterate until the complete training data fits without any error or until reached to the specified maximum number of estimators.
+To classify, perform a &ldquo;vote&rdquo; across all of the learning algorithms you built.</p>
+</li>
+</ul>
+<p><strong>Pros of Aaboost</strong></p>
+<p>AdaBoost is easy to implement. It iteratively corrects the mistakes of the weak classifier and improves accuracy by combining weak learners. You can use many base classifiers with AdaBoost. AdaBoost is not prone to overfitting. This can be found out via experiment results, but there is no concrete reason available.</p>
+<p>Cons of Aaboost
+AdaBoost is sensitive to noise data. It is highly affected by outliers because it tries to fit each point perfectly. AdaBoost is slower compared to XGBoost.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#import the model</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.ensemble <span style="color:#f92672">import</span> AdaBoostClassifier
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>AdaBoostClassifier()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span><span style="display:flex;"><span>                        
+</span></span></code></pre></div><pre><code>		ADABOOSTCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.93      0.94      0.94     35308
+              satisfaction       0.92      0.91      0.92     27034
+
+                  accuracy                           0.93     62342
+                 macro avg       0.93      0.93      0.93     62342
+              weighted avg       0.93      0.93      0.93     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.94      0.94      0.94     11858
+              satisfaction       0.92      0.92      0.92      8923
+
+                  accuracy                           0.93     20781
+                 macro avg       0.93      0.93      0.93     20781
+              weighted avg       0.93      0.93      0.93     20781
+
+Accuracy score for training dataset 0.9275929549902152
+Accuracy score for validation dataset 0.9282517684423272
+ROC AUC Score : 97.74%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_163_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>The ROC AUC score is 97.74%.</li>
+<li>The Recall and F1 scores are good but comparatively lower than the random forest.</li>
+</ul>
+<h2 id="gradient-boosting-classifier">Gradient Boosting Classifier</h2>
+<p>Gradient boosting classifiers are a group of machine learning algorithms that combine many weak learning models together to create a strong predictive model. Decision trees are usually used when doing gradient boosting. Gradient boosting models are becoming popular because of their effectiveness at classifying complex datasets.</p>
+<p>The gradient boosting algorithm is one of the most powerful algorithms in the field of machine learning. As we know that the errors in machine learning algorithms are broadly classified into two categories i.e. Bias Error and Variance Error. As gradient boosting is one of the boosting algorithms it is used to minimize bias error of the model.</p>
+<p><strong>Gradient Boosting has three main components:</strong></p>
+<p>1.<strong>Loss Function -</strong> The role of the loss function is to estimate how good the model is at making predictions with the given data. This could vary depending on the problem at hand. For example, if we&rsquo;re trying to predict the weight of a person depending on some input variables (a regression problem), then the loss function would be something that helps us find the difference between the predicted weights and the observed weights. On the other hand, if we&rsquo;re trying to categorize if a person will like a certain movie based on their personality, we&rsquo;ll require a loss function that helps us understand how accurate our model is at classifying people who did or didn&rsquo;t like certain movies.</p>
+<p>2.<strong>Weak Learner -</strong> A weak learner is one that classifies our data but does so poorly, perhaps no better than random guessing. In other words, it has a high error rate. These are typically decision trees (also called decision stumps, because they are less complicated than typical decision trees).</p>
+<p>3.<strong>Additive Model -</strong> This is the iterative and sequential approach of adding the trees (weak learners) one step at a time. After each iteration, we need to be closer to our final model. In other words, each iteration should reduce the value of our loss function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#import the model</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.ensemble <span style="color:#f92672">import</span> GradientBoostingClassifier
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>GradientBoostingClassifier()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		GRADIENTBOOSTINGCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.94      0.96      0.95     35308
+              satisfaction       0.95      0.92      0.93     27034
+
+                  accuracy                           0.94     62342
+                 macro avg       0.94      0.94      0.94     62342
+              weighted avg       0.94      0.94      0.94     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.94      0.96      0.95     11858
+              satisfaction       0.94      0.92      0.93      8923
+
+                  accuracy                           0.94     20781
+                 macro avg       0.94      0.94      0.94     20781
+              weighted avg       0.94      0.94      0.94     20781
+
+Accuracy score for traing dataset 0.942735234673254
+Accuracy score for validation dataset 0.9418218565035369
+ROC AUC Score : 98.71%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_167_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>The ROC AUC score is 98.71%.</li>
+<li>The Recall and F1 scores are good.</li>
+<li>We can choose this dataset to train our model.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="gradient-boosting-machinesxgboost">Gradient Boosting Machines(XGBoost)</h2>
+<p>XgBoost stands for Extreme Gradient Boosting. It implements machine learning algorithms under the Gradient Boosting framework.</p>
+<ul>
+<li>In this algorithm, decision trees are created in sequential form. Weights play an important role in XGBoost.</li>
+<li>Weights are assigned to all the independent variables which are then fed into the decision tree which predicts results.</li>
+<li>The weight of variables predicted wrong by the tree is increased and these variables are then fed to the second decision tree. These individual classifiers/predictors then ensemble to give a strong and more precise model.</li>
+<li>It can work on regression, classification, ranking, and user-defined prediction problems.</li>
+</ul>
+<p><img src="https://miro.medium.com/max/809/1*ozf-ftCx-jy2jII4cEv9YA.png" alt=""></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#import the model</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> xgboost <span style="color:#f92672">import</span> XGBClassifier
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>XGBClassifier()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for training dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>		XGBCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.98      0.99      0.98     35308
+              satisfaction       0.99      0.97      0.98     27034
+
+                  accuracy                           0.98     62342
+                 macro avg       0.98      0.98      0.98     62342
+              weighted avg       0.98      0.98      0.98     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.96      0.98      0.97     11858
+              satisfaction       0.97      0.94      0.96      8923
+
+                  accuracy                           0.96     20781
+                 macro avg       0.96      0.96      0.96     20781
+              weighted avg       0.96      0.96      0.96     20781
+
+Accuracy score for training dataset 0.9802861634211286
+Accuracy score for validation dataset 0.9622732303546508
+ROC AUC Score: 99.51%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_172_1.png" alt="png"></p>
+<p>Observations:</p>
+<ul>
+<li>The ROC AUC score is 99.51%.slightly higher than gradient Boosting.</li>
+<li>The Recall and F1 scores are good.</li>
+<li>We can choose this dataset to train our model. Ans can also improve our model with Hyperparameter tuning.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="lightboost">LightBoost</h2>
+<p>LightGBM is a gradient boosting framework that uses tree-based learning algorithms. It is designed to be distributed and efficient with the following advantages:</p>
+<ul>
+<li>Faster training speed and higher efficiency.</li>
+<li>Lower memory usage.</li>
+<li>Better accuracy.</li>
+<li>Support of parallel, distributed, and GPU learning.</li>
+<li>Capable of handling large-scale data.</li>
+</ul>
+<p>LightGBM uses histogram-based algorithms, which bucket continuous feature (attribute) values into discrete bins. This speeds up training and reduces memory usage.</p>
+<p>LightGBM grows trees leaf-wise (best-first). It will choose the leaf with max delta loss to grow. Holding #leaf fixed, leaf-wise algorithms tend to achieve lower loss than level-wise algorithms.
+<img src="https://lightgbm.readthedocs.io/en/latest/_images/leaf-wise.png" alt=""></p>
+<p>Leaf-wise may cause over-fitting when #data is small, so LightGBM includes the max_depth parameter to limit tree depth. However, trees still grow leaf-wise even when max_depth is specified.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#import the model</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> lightgbm <span style="color:#66d9ef">as</span> lgb
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#fit the model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span>lgb<span style="color:#f92672">.</span>LGBMClassifier()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train,y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># prediction</span>
+</span></span><span style="display:flex;"><span>pred_train <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_train)
+</span></span><span style="display:flex;"><span>pred_val <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_val)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># model name</span>
+</span></span><span style="display:flex;"><span>model_name <span style="color:#f92672">=</span> str(type(model))<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;.&#34;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t\t</span><span style="color:#e6db74">{</span>model_name<span style="color:#f92672">.</span>upper()<span style="color:#e6db74">}</span><span style="color:#e6db74"> MODEL</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Training part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_train, pred_train,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;validation part:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(classification_report(y_val, pred_val,
+</span></span><span style="display:flex;"><span>                                    target_names<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;neutral or dissatisfaction&#39;</span>, <span style="color:#e6db74">&#39;satisfaction&#39;</span>]))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for traing dataset&#34;</span>,accuracy_score(y_train, pred_train))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Accuracy score for validation dataset&#34;</span>,accuracy_score(y_val, pred_val))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>make_classification_report(model,X_val,y_val)
+</span></span></code></pre></div><pre><code>[LightGBM] [Info] Number of positive: 27034, number of negative: 35308
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.002503 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 929
+[LightGBM] [Info] Number of data points in the train set: 62342, number of used features: 22
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.433640 -&gt; initscore=-0.267014
+[LightGBM] [Info] Start training from score -0.267014
+		LGBMCLASSIFIER MODEL
+
+Training part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.96      0.98      0.97     35308
+              satisfaction       0.98      0.94      0.96     27034
+
+                  accuracy                           0.97     62342
+                 macro avg       0.97      0.96      0.97     62342
+              weighted avg       0.97      0.97      0.97     62342
+
+validation part:
+                            precision    recall  f1-score   support
+
+neutral or dissatisfaction       0.96      0.98      0.97     11858
+              satisfaction       0.97      0.94      0.96      8923
+
+                  accuracy                           0.96     20781
+                 macro avg       0.96      0.96      0.96     20781
+              weighted avg       0.96      0.96      0.96     20781
+
+Accuracy score for training dataset 0.9671970742035867
+Accuracy score for validation dataset 0.9630431644290458
+ROC AUC Score: 99.49%
+</code></pre>
+<p><img src="https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project/blob/main/docs/output_177_1.png" alt="png"></p>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>this model is performing best with our Dataset.</li>
+<li>The ROC AUC score is 99.49%.</li>
+<li>The Recall and F1 scores are Very good.</li>
+<li>We can choose this dataset to train our model.</li>
+</ul>
 <ul class="pa0">
   
 </ul>

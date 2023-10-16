@@ -13,18 +13,18 @@
       <pubDate>Tue, 15 Aug 2023 11:25:05 -0400</pubDate>
       
       <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-7/</guid>
-      <description>Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.</description>
+      <description>Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.
+Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity.</description>
     </item>
     
     <item>
       <title>LangChain Powered PDF Chat for Communication</title>
-      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-8/</link>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/langchain-pdf/</link>
       <pubDate>Tue, 15 Aug 2023 11:25:05 -0400</pubDate>
       
-      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-8/</guid>
-      <description>Project Overview- Langchain-PDF-App-GUI Project Description: The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain&amp;rsquo;s advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately.
-Website https://github.com/praj2408/Langchain-PDF-App-GUI/assets/70437673/6f1f0806-f6d5-416d-9f6a-5c5282db2769
-Features: PDF Parsing: The system will incorporate a PDF parsing module to extract text content from PDF files.</description>
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/langchain-pdf/</guid>
+      <description>Project Overview- The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain&amp;rsquo;s advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately.
+Features: 1. PDF Parsing: The system will incorporate a PDF parsing module to extract text content from PDF files.</description>
     </item>
     
     <item>
@@ -94,8 +94,9 @@ Frameworks Used: Python The core of the web application is built using Python, a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://praj2408.github.io/Prajwal_Portfolio/about/</guid>
-      <description>Illustration from Victor Hugo et son temps (1881) Hello there! I&amp;rsquo;m Prajwal Krishna, a passionate and dedicated aspiring data scientist. I&amp;rsquo;m on a mission to turn raw data into meaningful insights that drive informed decisions. With a recent completion of a Full Stack Data Science Masters from iNeuron Intelligence, I&amp;rsquo;ve armed myself with a comprehensive understanding of the data science landscape.
-My journey into the world of data began with a fascination for its potential to revolutionize industries.</description>
+      <description>Hello, I&amp;rsquo;m Prajwal Krishna, a passionate Data Scientist with a strong commitment to unraveling complex problems through data-driven insights. Over the years, I&amp;rsquo;ve developed a robust skill set and a diverse portfolio that showcases my dedication to leveraging data for decision-making and problem-solving.
+Professional Experience: Data Scientist | Intern - BCG Forage (Apr 2023 – Jun 2023)
+Data Scientist | Intern - iNeuron Intelligence (Jan 2023 – Mar 2023)</description>
     </item>
     
     <item>
@@ -109,18 +110,6 @@ Email: prajwalgbdr03@gmail.com
 LinkedIn: https://www.linkedin.com/in/prajwalkrishna/
 Github: https://github.com/praj2408
 Lets Connect Your Name Email Address An email address is required. Message </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://praj2408.github.io/Prajwal_Portfolio/coursework/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://praj2408.github.io/Prajwal_Portfolio/coursework/</guid>
-      <description>I&amp;rsquo;m best reached via Email or LinkedIn. I&amp;rsquo;m always open to interesting conversations and collaboration.
-Email: prajwalgbdr03@gmail.com
-LinkedIn: https://www.linkedin.com/in/prajwalkrishna/
-Github: https://github.com/praj2408</description>
     </item>
     
   </channel>

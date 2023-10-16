@@ -17,15 +17,5 @@
 Website Dataset The dataset used in this project is the Toxic Comment Classification Challenge from Kaggle.</description>
     </item>
     
-    <item>
-      <title>Automated-Machine-Learning-App</title>
-      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-1/</guid>
-      <description>The Automated ML WebApp project is a tool developed using Python, Pandas Profiling, PyCaret, and Streamlit frameworks. It aims to simplify and streamline the process of building machine learning models by automating various tasks involved in data preprocessing, feature engineering, model selection, and downloading the trained models.
-Frameworks Used: Python The core of the web application is built using Python, a versatile programming language widely used in the field of data science and machine learning.</description>
-    </item>
-    
   </channel>
 </rss>

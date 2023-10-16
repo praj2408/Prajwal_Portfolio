@@ -13,18 +13,18 @@
       <pubDate>Tue, 15 Aug 2023 11:25:05 -0400</pubDate>
       
       <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-7/</guid>
-      <description>Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.</description>
+      <description>Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.
+Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity.</description>
     </item>
     
     <item>
       <title>LangChain Powered PDF Chat for Communication</title>
-      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-8/</link>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/langchain-pdf/</link>
       <pubDate>Tue, 15 Aug 2023 11:25:05 -0400</pubDate>
       
-      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-8/</guid>
-      <description>Project Overview- Langchain-PDF-App-GUI Project Description: The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain&amp;rsquo;s advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately.
-Website https://github.com/praj2408/Langchain-PDF-App-GUI/assets/70437673/6f1f0806-f6d5-416d-9f6a-5c5282db2769
-Features: PDF Parsing: The system will incorporate a PDF parsing module to extract text content from PDF files.</description>
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/langchain-pdf/</guid>
+      <description>Project Overview- The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain&amp;rsquo;s advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately.
+Features: 1. PDF Parsing: The system will incorporate a PDF parsing module to extract text content from PDF files.</description>
     </item>
     
     <item>
