@@ -8,6 +8,26 @@
     <language>en</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://praj2408.github.io/Prajwal_Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Airline Passenger Satisfaction Prediction using Machine Learning</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-7/</link>
+      <pubDate>Tue, 15 Aug 2023 11:25:05 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-7/</guid>
+      <description>Project Overview- The goal of this project is to develop a machine learning model that predicts passenger satisfaction based on various features and attributes related to airline services. We will explore, preprocess, visualize, and analyze the dataset before training and evaluating multiple machine learning models. This project is a practical demonstration of applying data science and machine learning techniques to solve a real-world problem in the airline industry.</description>
+    </item>
+    
+    <item>
+      <title>LangChain Powered PDF Chat for Communication</title>
+      <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-8/</link>
+      <pubDate>Tue, 15 Aug 2023 11:25:05 -0400</pubDate>
+      
+      <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-8/</guid>
+      <description>Project Overview- Langchain-PDF-App-GUI Project Description: The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain&amp;rsquo;s advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately.
+Website https://github.com/praj2408/Langchain-PDF-App-GUI/assets/70437673/6f1f0806-f6d5-416d-9f6a-5c5282db2769
+Features: PDF Parsing: The system will incorporate a PDF parsing module to extract text content from PDF files.</description>
+    </item>
+    
+    <item>
       <title>Adult Census Income Prediction</title>
       <link>https://praj2408.github.io/Prajwal_Portfolio/post/project-5/</link>
       <pubDate>Sat, 13 May 2023 11:15:58 -0400</pubDate>
@@ -44,7 +64,8 @@ Website Dataset The dataset used in this project is the Toxic Comment Classifica
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
       
       <guid>https://praj2408.github.io/Prajwal_Portfolio/post/project-3/</guid>
-      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
+      <description>Problem Analysis The goal of this project is to give people an estimate of how much they need based on their individual health situation. After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective part.
+Website Link https://insurance-premium-price-prediction.</description>
     </item>
     
     <item>
