@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Adult Census Income Prediction">
 <meta itemprop="description" content="A binary classification problem where a person is classified into the &gt;50K group or &lt;=50K group."><meta itemprop="datePublished" content="2023-05-13T11:15:58-04:00" />
 <meta itemprop="dateModified" content="2023-05-13T11:15:58-04:00" />
-<meta itemprop="wordCount" content="384">
+<meta itemprop="wordCount" content="556">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Adult Census Income Prediction"/>
 <meta name="twitter:description" content="A binary classification problem where a person is classified into the &gt;50K group or &lt;=50K group."/>
@@ -206,6 +206,14 @@
 <p><strong>Model Deployment:</strong> Once a satisfactory model is obtained, it can be deployed in a production environment for making predictions on new, unseen data. This may involve creating an API or integrating the model into an existing software system.</p>
 <h2 id="results-and-analysis">Results and analysis</h2>
 <p>After training the model, we achieved accuracy value of 0.86.69 (87% accuracy) on the test data, indicating a high level of predictive power.</p>
+<h2 id="mlops-level-1-ml-pipeline-automation-architecture">MLOps Level 1: ML Pipeline Automation Architecture</h2>
+<p>The goal of level 1 is to perform continuous training of the model by automating the ML pipeline; this lets you achieve continuous delivery of model prediction service. To automate the process of using new data to retrain models in production, you need to introduce automated data and model validation steps to the pipeline, as well as pipeline triggers and metadata management.</p>
+<p>The following figure is a schematic representation of an automated ML pipeline for CT.
+<img src="https://github.com/praj2408/ETE-Protect/blob/main/images/ML%20pipeline%20automation.jpg" alt=""></p>
+<h2 id="mlops-level-2-cicd-pipeline-automation">MLOps Level 2: CI/CD Pipeline Automation</h2>
+<p>For a rapid and reliable update of the pipelines in production, you need a robust automated CI/CD system. This automated CI/CD system lets your data scientists rapidly explore new ideas around feature engineering, model architecture, and hyperparameters. They can implement these ideas and automatically build, test, and deploy the new pipeline components to the target environment.</p>
+<p>The following diagram shows the implementation of the ML pipeline using CI/CD, which has the characteristics of the automated ML pipelines setup plus the automated CI/CD routines.
+<img src="https://github.com/praj2408/ETE-Protect/blob/main/images/cicd%20pipeline%20automation.jpg" alt=""></p>
 <ul class="pa0">
   
 </ul>
