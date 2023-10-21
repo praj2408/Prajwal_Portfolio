@@ -2,7 +2,7 @@
 Still building....  
 https://praj2408.github.io/Prajwal_Portfolio/
 
-
+Theme Used: https://themes.gohugo.io/themes/gohugo-theme-ananke/
 
 ## Commands:
 ```bash
